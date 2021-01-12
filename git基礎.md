@@ -49,15 +49,7 @@ git config --global user.email "your email"**
   **指令：git pull 或git pull origin master**(更新老師上課的教材也常用這個指令！)
   
   
-  
-  
-  
-  
-  參考資料：  
-  https://backlog.com/git-tutorial/tw/intro/intro4_4.html  
-  https://w3c.hexschool.com/git/7b64aa34  
-  https://w3c.hexschool.com/git/b9be5b1e  
-  https://tw.alphacamp.co/blog/git-github-version-control-guide
+ 
   
  ## Master、Branch和Merge
  Master是專案的主要版本，Branch是專案的分支版本，Merge則是把兩個不同的分支版本，合併到其中一個分支上。
@@ -67,8 +59,12 @@ git config --global user.email "your email"**
  * **git branch test**：增加一個名叫test的Branch。
  * **git branch -m 舊Branch名 新Branch名**：更改Branch名稱
  * **git branch -d Branch名**：刪除Branch(用 -D 參數可以強制刪除)
- * **git checkout Branch名**：切換Branch(前面'*'表示目前Branch)
+ * **git checkout Branch名**：切換Branch(前面'*'表示目前Branch。若切換到一個不存在的Branch，加上 -b 參數，git 就會幫你建一個，然後再切換過去)
  
- 
+ 參考資料：  
+  https://backlog.com/git-tutorial/tw/intro/intro4_4.html  
+  https://w3c.hexschool.com/git/7b64aa34  
+  https://w3c.hexschool.com/git/b9be5b1e  
+  https://tw.alphacamp.co/blog/git-github-version-control-guide
  
  
