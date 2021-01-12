@@ -9,6 +9,13 @@ git是一個版本控制系統，而github則是以git為核心技術基礎的�
 遠端數據庫：可以讓很多人一起使用的而建立的數據庫
 本地端數據庫：在自己的機器上，方便個人使用的數據庫。
 
+## 註冊帳號與連結帳號
+請先到github的官網註冊一組github帳號吧！[github](https://github.com/)
+註冊好之後，需要設定git的使用者名稱和信箱，在進行程式碼的版本更新時，git會紀錄修改者是誰，因此需要登錄你的 name 和 email
+**指令：  
+git config --global user.name "your name"  
+git config --global user.email "your email"**
+
 ## 流程
  * 首先在要在目標目錄裡建立數據庫。沒有目錄的話請先新增一個目錄。
  **指令：git init**
@@ -21,6 +28,7 @@ git是一個版本控制系統，而github則是以git為核心技術基礎的�
  **指令：git log**
  * 更新遠端數據庫資料
  **指令：git push <數據庫簡稱> <分支名稱>**(這裡終於了解老師上課常用的git push origin master是什麼意思了！)
+
  
 ## 其他常用指令
  * 顯示修改的檔案有哪些
