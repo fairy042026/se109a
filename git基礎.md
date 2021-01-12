@@ -47,6 +47,8 @@ git config --global user.email "your email"**
   **指令：git clone <網址>**
   * 從遠端數據庫下載最新的檔案版本，同步到自己的本地端數據庫。
   **指令：git pull 或git pull origin master**(更新老師上課的教材也常用這個指令！)
+  * 將檔案建立暫存版
+  **指令：git stash**
   
   
  
@@ -54,17 +56,19 @@ git config --global user.email "your email"**
  ## Master、Branch和Merge
  Master是專案的主要版本，Branch是專案的分支版本，Merge則是把兩個不同的分支版本，合併到其中一個分支上。
  通常在Master上開發主要功能，並在Master分出去的Branch上開發副功能。當某個Branch的功能已經開發完整時，要把Branch上的功能套回Master上，就會執行Merge，把Branch的版本合併回Master上。  
- 使用branch指令：  
+ 使用指令：  
  * **git branch**：git branch後面不加參數，可以查詢目前在這個專案有哪些Branch。預設會設定一個叫master的分支。
  * **git branch test**：增加一個名叫test的Branch。
  * **git branch -m 舊Branch名 新Branch名**：更改Branch名稱
  * **git branch -d Branch名**：刪除Branch(用 -D 參數可以強制刪除)
  * **git checkout Branch名**：切換Branch(前面'*'表示目前Branch。若切換到一個不存在的Branch，加上 -b 參數，git 就會幫你建一個，然後再切換過去)
+ * **git merge Branch名**：把Branch合併到其他Branch上(若是要合併到Master，只需切回合併目的地的 master 分支，然後執行 git merge 命令)
  
  參考資料：  
   https://backlog.com/git-tutorial/tw/intro/intro4_4.html  
   https://w3c.hexschool.com/git/7b64aa34  
   https://w3c.hexschool.com/git/b9be5b1e  
-  https://tw.alphacamp.co/blog/git-github-version-control-guide
+  https://tw.alphacamp.co/blog/git-github-version-control-guide  
+  https://gitbook.tw/chapters/branch/using-branch.html  
  
  
