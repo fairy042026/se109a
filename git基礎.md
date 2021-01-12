@@ -63,7 +63,11 @@ git config --global user.email "your email"**
  Master是專案的主要版本，Branch是專案的分支版本，Merge則是把兩個不同的分支版本，合併到其中一個分支上。
  通常在Master上開發主要功能，並在Master分出去的Branch上開發副功能。當某個Branch的功能已經開發完整時，要把Branch上的功能套回Master上，就會執行Merge，把Branch的版本合併回Master上。  
  使用branch指令：  
- * **git branch**：git branch後面不加參數，預設會幫設定一個叫master的分支。
+ * **git branch**：git branch後面不加參數，可以查詢目前在這個專案有哪些Branch。預設會設定一個叫master的分支。
+ * **git branch test**：增加一個名叫test的Branch。
+ * **git branch -m 舊Branch名 新Branch名**：更改Branch名稱
+ * **git branch -d Branch名**：刪除Branch(用 -D 參數可以強制刪除)
+ * **git checkout Branch名**：切換Branch(前面'*'表示目前Branch)
  
  
  
