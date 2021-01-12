@@ -43,5 +43,5 @@ git是一個版本控制系統，而github則是以git為核心技術基礎的�
   
   
   
-  參考資料：[](https://backlog.com/git-tutorial/tw/intro/intro4_4.html)
+  參考資料：(https://backlog.com/git-tutorial/tw/intro/intro4_4.html)
  
