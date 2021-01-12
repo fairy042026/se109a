@@ -14,7 +14,9 @@ git是一個版本控制系統，而github則是以git為核心技術基礎的�
 註冊好之後，需要設定git的使用者名稱和信箱，在進行程式碼的版本更新時，git會紀錄修改者是誰，因此需要登錄你的 name 和 email  
 **指令：  
 git config --global user.name "your name"  
-git config --global user.email "your email"**
+git config --global user.email "your email"**  
+可以使用指令確認輸入資料是否正確
+**指令：git config --list**
 
 ## 流程
  * 首先在要在目標目錄裡建立數據庫。沒有目錄的話請先新增一個目錄。
@@ -56,4 +58,13 @@ git config --global user.email "your email"**
   https://w3c.hexschool.com/git/7b64aa34  
   https://w3c.hexschool.com/git/b9be5b1e  
   https://tw.alphacamp.co/blog/git-github-version-control-guide
+  
+ ## Master、Branch和Merge
+ Master是專案的主要版本，Branch是專案的分支版本，Merge則是把兩個不同的分支版本，合併到其中一個分支上。
+ 通常在Master上開發主要功能，並在Master分出去的Branch上開發副功能。當某個Branch的功能已經開發完整時，要把Branch上的功能套回Master上，就會執行Merge，把Branch的版本合併回Master上。  
+ 使用branch指令：  
+ * **git branch**：git branch後面不加參數，預設會幫設定一個叫master的分支。
+ 
+ 
+ 
  
