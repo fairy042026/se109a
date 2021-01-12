@@ -34,6 +34,14 @@ git是一個版本控制系統，而github則是以git為核心技術基礎的�
   * 還原在工作目錄已更改的檔案
   **指令：git checkout -- <檔案>**
   * 克隆遠端數據庫
-  **指令：git clone <url>**
- 
+  **指令：git clone <網址>**
+  * 從遠端數據庫下載最新的檔案版本，同步到自己的本地端數據庫。
+  **指令：git pull 或git pull origin master**(更新老師上課的教材也常用這個指令！)
+  
+  
+  
+  
+  
+  
+  參考資料：[](https://backlog.com/git-tutorial/tw/intro/intro4_4.html)
  
