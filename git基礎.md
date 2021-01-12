@@ -10,8 +10,8 @@ git是一個版本控制系統，而github則是以git為核心技術基礎的�
 本地端數據庫：在自己的機器上，方便個人使用的數據庫。
 
 ## 註冊帳號與連結帳號
-請先到github的官網註冊一組github帳號吧！[github](https://github.com/)
-註冊好之後，需要設定git的使用者名稱和信箱，在進行程式碼的版本更新時，git會紀錄修改者是誰，因此需要登錄你的 name 和 email
+請先到github的官網註冊一組github帳號吧！[github](https://github.com/)  
+註冊好之後，需要設定git的使用者名稱和信箱，在進行程式碼的版本更新時，git會紀錄修改者是誰，因此需要登錄你的 name 和 email  
 **指令：  
 git config --global user.name "your name"  
 git config --global user.email "your email"**
