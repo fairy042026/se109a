@@ -30,7 +30,7 @@ def isValid(mat, visited, row, col):
            and mat[row][col] == 1 and not visited[row][col]
  
  
-#在源單元格（i，j）的矩陣矩陣中查找最短可能路線到目標單元格（x，y）
+#在源單元格（i，j）的矩陣中查找最短可能路線到目標單元格（x，y）
 def BFS(mat, i, j, x, y):
  
 #構造矩陣以跟踪訪問的單元格
@@ -42,10 +42,10 @@ def BFS(mat, i, j, x, y):
 #將源單元格標記為已訪問並排隊源節點
     visited[i][j] = True
 
-#（i，j，dist）表示矩陣單元格坐標及其與源的最小距離
+#（i，j，dist）表示矩陣單元格坐標及其與源單元格的最小距離
     q.append((i, j, 0))
  
-#儲存從源到目標的最長路徑的長度
+#儲存從源單元格到目標的最長路徑的長度
     min_dist = float('inf')
  
 #循環直到佇列為空
@@ -54,7 +54,7 @@ def BFS(mat, i, j, x, y):
 #從隊列中彈出節點並對其進行處理
         (i, j, dist) = q.popleft()
  
-#（i，j）表示當前單元格，並且dist存儲其距源的最小距離
+#（i，j）表示當前單元格，並且dist儲存其距源單元格的最小距離
  
 #如果找到目標，則更新min_dist並停止
         if i == x and j == y:
@@ -63,7 +63,7 @@ def BFS(mat, i, j, x, y):
  
 #檢查當前單元格中所有4種可能的運動，並從當前位置開始對每個有效運動（i + row [k]，j + col [k]）進行排隊
         for k in range(4):
-#檢查是否可以轉到位置（i + row [k]，j + col [ k]）從當前位置
+#檢查是否可以從當前位置轉到位置（i + row [k]，j + col [ k]）
             if isValid(mat, visited, i + row[k], j + col[k]):
 
 #將下一個單元格標記為已訪問並將其排隊
