@@ -23,7 +23,7 @@ row = [-1, 0, 0, 1]
 col = [0, -1, 1, 0]
  
  
-#檢查是否可以從當前位置移至位置（行，列）的功能。
+#檢查是否可以從當前位置移至位置（row，col）的功能。
 #如果row，col不是有效位置或值為0或已被訪問，則該函數返回false
 def isValid(mat, visited, row, col):
     return (row >= 0) and (row < M) and (col >= 0) and (col < N) \
