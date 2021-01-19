@@ -92,6 +92,9 @@ if __name__ == '__main__':
     
 ```
 
+## 執行結果
+**(0,0)到(5,4)的最短路徑
+![9](https://github.com/fairy042026/se109a/blob/master/%E6%9C%9F%E6%9C%AB/9.PNG)
 
 
 參考資料：https://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/
