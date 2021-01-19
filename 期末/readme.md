@@ -2,6 +2,9 @@
 
 為什麼選擇這個主題，是因為一開始看到它的名稱叫lee algorithm，覺得滿特別的，就選了這個主題。剛好看到它是走迷宮的，覺得滿有趣的，之前我有稍微去查了一下深度學習的資料，其中有一個主題和迷宮挺像的，就是人物會自己嘗試去走迷宮，經過不斷嘗試走到終點，而這個是找尋最短路徑，雖然不一樣，不過還是挺有意思的。
 
+## 李氏演算法
+Lee algorithm是迷宫問題的一種解决辦法。它可以提供較好的解决辦法，但是速度很慢，而且需要較大的記憶體才能執行。剛好我電腦的記憶體有20G，於是就拿它來試試看能不能順利執行。
+
 ## 程式碼
 
 ```
@@ -99,5 +102,7 @@ if __name__ == '__main__':
 **(0,0)到(7,5)的最短路徑**
 ![12](https://github.com/fairy042026/se109a/blob/master/%E6%9C%9F%E6%9C%AB/12.PNG)
 
-參考資料：https://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/
+參考資料：  
+https://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/  
+https://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/
 
