@@ -4,6 +4,7 @@
 
 ## 程式碼
 
+```
 from collections import deque
  
  
@@ -88,6 +89,7 @@ if __name__ == '__main__':
  
     #查找從源（0，0）到目標（7，5）的最短路徑
     BFS(mat, 0, 0, 5, 4)
+    
 ```
 
 
