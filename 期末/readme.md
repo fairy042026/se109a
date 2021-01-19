@@ -110,5 +110,4 @@ if __name__ == '__main__':
 
 參考資料：  
 https://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/  
-https://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/
-
+https://www.freecodecamp.org/news/lees-algorithm-explained-with-examples/
